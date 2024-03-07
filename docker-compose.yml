@@ -6,7 +6,7 @@ services:
       - 8999:8080
     volumes:
       - type: bind
-        source: /home/ubuntu/temp/assets/data.xlsx
+        source: /home/ubuntu/temp/assets/
         target: /data
   fontend:
     image: pattaradanai888/automate-test
